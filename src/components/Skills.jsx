@@ -18,9 +18,9 @@ const Skills = () => {
                     </button></a>
                 </div>
             </motion.div>
-            <motion.div className="flex sm:w-[40%] skills_2 w-[100%] sm:mt-0 mt-7" variants={fadeIn("right","tween",1,1)} >
+            <motion.div className="flex sm:w-[40%] skills_2 w-[80%] sm:mt-0 mt-7" variants={fadeIn("right","tween",1,1)} >
             <div >
-                <ul className='text-2xl flex flex-col gap-5'>
+                <ul className='sm:text-2xl flex flex-col gap-5 text-xl'>
                     <li className='text-white'><span className='text-[purple]'>01.</span>HTML & CSS</li>
                     <li className='text-white'><span className='text-[purple]'>02.</span>JavaScript</li>
                     <li className='text-white'><span className='text-[purple]'>03.</span>TailwindCSS</li>
@@ -28,7 +28,7 @@ const Skills = () => {
                 </ul>
             </div>
             <div className="ml-10">
-                <ul className='text-2xl flex flex-col gap-5'>
+                <ul className='sm:text-2xl flex flex-col gap-5 text-xl'>
                 <li className='text-white'><span className='text-[purple]'>05.</span>Bootstrap</li>
                 <li className='text-white'><span className='text-[purple]'>06.</span>Git & GitHub</li>
                 </ul>

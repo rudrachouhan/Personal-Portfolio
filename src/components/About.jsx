@@ -9,7 +9,7 @@ const About = () => {
     <section id='about' className='about sm:flex w-full justify-around py-10 sm:px-0 px-7'>
     <motion.div className='about__me my-12' variants={fadeIn("right","spring",1,1)}>
       <div className="about__img">
-       <img src="/Rudra.jpg" alt="myself" className='sm:h-96 sm:w-96 h-[100%] w-[100%]' /> 
+       <img src="/Rudra.jpg" alt="myself" className='sm:h-96 sm:w-96 h-[95%] w-[95%]' /> 
        </div>
     </motion.div>
     <motion.div className='py-24 sm:w-[40%] flex flex-col w-[100%]' variants={fadeIn("left","spring",1,1)}>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import navicon1 from "../assets/img/nav-icon1.svg";
-import navicon3 from "../assets/img/nav-icon3.svg";
-import navicon4 from '../assets/img/icons8-resume-20.png'
+import navicon1 from "/img/nav-icon1.svg";
+import navicon3 from "/img/nav-icon3.svg";
+import navicon4 from '/img/icons8-resume-20.png'
 import { menu, close } from '../assets'
 import resume from '../assets/resume/Resume.pdf';
 
@@ -101,7 +101,7 @@ export const Navbar = () => {
           </div></a>
           <a href="https://github.com/rudrachouhan" target="_blank"> <div className=" flex rounded-full border bg-gray-800 w-[40px] h-[40px] items-center justify-center border-gray-600">
 
-            <img src="src/assets/github.png" alt="GitHub" className="h-[20px] w-[20px]" />
+            <img src="/github.png" alt="GitHub" className="h-[20px] w-[20px]" />
 
           </div></a>
           <a href="https://www.instagram.com/chauhan_rudraa/" target="_blank">  <div className=" flex rounded-full border bg-gray-800 w-[40px] h-[40px] items-center justify-center border-gray-600">

@@ -25,7 +25,7 @@ body{
 }
 
 .hero{
-    background-image: url(../src/assets/img/banner-bg.png);
+    background-image: url(/img/banner-bg.png);
     background-size: cover;
 }
 

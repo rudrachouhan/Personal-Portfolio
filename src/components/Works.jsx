@@ -2,7 +2,7 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../assets/styles";
-import gitimg from "../assets/github.png";
+import gitimg from "/github.png";
 import { SectionWrapper } from "../assets/hoc";
 import { projects } from "../assets/constants/projects";
 import { fadeIn, textVariant } from "../assets/utils/motion";

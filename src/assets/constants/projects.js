@@ -17,7 +17,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/projects/Screenshot (1277).png",
+    image: "/projects/Screenshot (1277).png",
     source_code_link: "https://github.com/rudrachouhan/youtube",
     link:"https://rudra-youtube-clone.netlify.app/"
   },
@@ -35,7 +35,7 @@ export const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: "src/assets/projects/Screenshot (1282).png",
+    image: "/projects/Screenshot (1282).png",
     source_code_link: "https://github.com/rudrachouhan/Code-Editor",
     link:"https://graceful-malasada-1ee349.netlify.app/"
   },
@@ -57,7 +57,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/projects/Screenshot (1278).png",
+    image: "/projects/Screenshot (1278).png",
     source_code_link: "https://github.com/rudrachouhan/KBC",
     link:"https://bespoke-fudge-d7e558.netlify.app/"
   },
@@ -75,7 +75,7 @@ export const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: "src/assets/projects/Screenshot (1280).png",
+    image: "/projects/Screenshot (1280).png",
     source_code_link: "https://github.com/rudrachouhan/Space-Website",
     link:"https://graceful-wisp-1f84b3.netlify.app/"
   },
@@ -93,7 +93,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/projects/Screenshot (1279).png",
+    image: "/projects/Screenshot (1279).png",
     source_code_link: "https://github.com/rudrachouhan/Huddle-Homepage",
     link:"https://helpful-taiyaki-0fb755.netlify.app/"
   },
@@ -111,7 +111,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/projects/Screenshot (1281).png",
+    image: "/projects/Screenshot (1281).png",
     source_code_link: "https://github.com/rudrachouhan/Insta-landing-page",
     link:"https://gregarious-puffpuff-350837.netlify.app/"
   },

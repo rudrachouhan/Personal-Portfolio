@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../index.css";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "/img/header-img.svg";
 import AnimatedLetters from "./AnimatedLetters";
 
 export const Banner = () => {

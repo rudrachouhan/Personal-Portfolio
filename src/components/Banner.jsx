@@ -17,7 +17,7 @@ export const Banner = () => {
 
   return (
     <section className="w-full sm:flex justify-around ">
-      <div className="flex flex-col pt-28 animation banner_1">
+      <div className="flex flex-col pt-28 animation banner_1 sm:px-0 px-5">
         <div className="p-3 welcome w-[50%]">
           <button className="text-white text-xl font-bold">
             Welcome to my Portfolio

@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import { styles } from "../assets/styles";
 import { EarthCanvas } from "../components/canvas";
 import { SectionWrapper } from "../assets/hoc";
-import { slideIn } from "../assets/utils/motion";
+import { fadeIn } from "../assets/utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
@@ -69,7 +69,7 @@ const Contact = () => {
       id="contact"
     >
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+        variants={fadeIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
@@ -124,7 +124,7 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={fadeIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         <EarthCanvas />

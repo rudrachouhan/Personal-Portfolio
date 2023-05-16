@@ -7,7 +7,7 @@ import { SectionWrapper } from "../assets/hoc";
 
 const Skills = () => {
     return (
-        <section id='skills' className='sm:flex justify-around skills py-32 items-center pl-16'>
+        <section id='skills' className='sm:flex justify-around skills py-32 items-center pl-8'>
             <motion.div className="text-white sm:w-[30%] skills_1 w-[100%]" variants={fadeIn("left","tween",1,1)}>
                 <h1 className='text-lg font-semibold'>Favourite <span className='text-lg font-semibold text-[purple]'>Skills</span></h1>
                 <h2 className='text-5xl font-bold'>My Skills</h2>

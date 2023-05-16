@@ -73,9 +73,11 @@ const ProjectCard = ({
   );
 };
 
+
+
 const Works = () => {
   return (
-    <section className="projects pl-16 pt-12 pb-16 hidden sm:block" id="projects">
+    <section className="projects sm:pl-16 pt-12 pb-16 pl-8 sm:pr-0 pr-8" id="projects">
       <motion.div variants={textVariant()}>
         <p className={`text-white text-2xl`}>
           My <span className="text-[purple]">work</span>{" "}
@@ -83,7 +85,7 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
-      <div className="mt-20 flex flex-wrap sm:gap-7 gap-4">
+      <div className="mt-20 flex flex-wrap sm:flex-row flex-col gap-7 items-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

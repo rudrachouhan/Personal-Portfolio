@@ -12,7 +12,7 @@ export const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center mt-8 ">
-      <div className="text-white text-4xl font-bold ml-16">RUDRA</div>
+      <div className="text-white text-4xl font-bold sm:ml-16 ml-8">RUDRA</div>
       <div className="flex items-center mr-16">
         <div className="hidden sm:flex">
           <a

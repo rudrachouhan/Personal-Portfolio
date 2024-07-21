@@ -3,7 +3,7 @@ import navicon1 from "/img/nav-icon1.svg";
 import navicon3 from "/img/nav-icon3.svg";
 import navicon4 from '/img/icons8-resume-20.png'
 import { menu, close } from '../assets'
-import resume from '../assets/resume/Resume.pdf';
+import resume from '../assets/resume/rudra_resume.pdf';
 
 
 export const Navbar = () => {
